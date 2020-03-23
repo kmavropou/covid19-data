@@ -57,6 +57,6 @@ def clean():
 if __name__ == '__main__':
     download_data()
     table = clean()
-    table.to_csv('covid_19_clean_complete.csv', index=False)
+    table.to_csv('../output_data/covid19_clean_complete.csv', index=False)
     print(table.head())
     print('Done.')
