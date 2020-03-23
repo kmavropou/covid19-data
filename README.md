@@ -24,4 +24,6 @@ Last Update: 23/3/2020
 We are looking for volunteers who want to contribute! We are also looking for fresh ideas to expand our project's goal!
 
 Contact Us: 
-- e-mail: alex.delitzas@gmail.com
+- e-mail: 
+  - alex.delitzas@gmail.com
+  - billmats96@hotmail.com
