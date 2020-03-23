@@ -1,4 +1,4 @@
-Our World in Data relies on data from the ECDC (European Center for Disease Control and Prevention).
+Our World in Data relies on data from the ECDC (European Centre for Disease Prevention and Control).
 
 Data sources:
 - https://ourworldindata.org/coronavirus-source-data
