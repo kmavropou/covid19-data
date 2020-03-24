@@ -20,6 +20,36 @@ Data are updated daily - Last Update: 24/3/2020 13:53 GMT+0200
 
 - [`output_data/covid19_clean_complete.csv`](https://github.com/AlexDelitzas/covid19-data/blob/master/output_data/covid19_clean_complete.csv): A cleaned and compact version of the data provided by Johns Hopkins CSSE. It provides information about coronavirus cases for every country.
 
+- [`output_data/timeseries_per_country.json`](https://github.com/AlexDelitzas/covid19-data/blob/master/output_data/timeseries_per_country.json): The number of confirmed cases, recovered cases and deaths for every country since 22/1/2020.
+
+  Available at: https://alexdelitzas.github.io/covid19-data/timeseries_per_country.json
+  ```
+  {
+    "China": [
+      {
+        "date": "2020-01-22",
+        "confirmed": 548,
+        "recovered": 28,
+        "deaths": 17
+      },
+      {
+        "date": "2020-01-23",
+        "confirmed": 643,
+        "recovered": 30,
+        "deaths": 18
+      },
+      {
+        "date": "2020-01-24",
+        "confirmed": 920,
+        "recovered": 36,
+        "deaths": 26
+      },
+      ...
+    ],
+    ...
+  }   
+  ```
+
 ## How to contribute
 We are looking for volunteers who want to contribute! We are also looking for fresh ideas to expand our project's goal!
 
