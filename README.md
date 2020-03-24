@@ -1,6 +1,6 @@
 # Novel Coronavirus (COVID-19) datasets and analysis
 
-This repository is an attempt to gather data from various sources on COVID-19. The goal is to boost reseach on the impact of the virus. 
+This repository is an attempt to gather data on COVID-19 from various sources. The goal is to boost reseach on the impact of the virus. 
 
 
 ## Data sources
@@ -24,4 +24,7 @@ Last Update: 23/3/2020
 We are looking for volunteers who want to contribute! We are also looking for fresh ideas to expand our project's goal!
 
 Contact Us: 
-- e-mail: alex.delitzas@gmail.com
+- e-mail: 
+  - alex.delitzas@gmail.com
+  - billmats96@hotmail.com
+  - kechrisc@gmail.com
