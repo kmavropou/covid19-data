@@ -4,7 +4,7 @@ import pandas as pd
 import json
 
 def export_to_json(data, filename):
-    json_output = '{\n'
+    json_output = '{'
     for name, group in data.groupby(["Country/Region"]):
         json_output += ('\n\t"' + name + '": [')
         for index, row in group.iterrows():
@@ -19,7 +19,7 @@ def export_to_json(data, filename):
         json_output = json_output[:-1]
         json_output += '\n\t],'
     json_output = json_output[:-1]
-    json_output += '\n}'
+    json_output += '\n}\n'
 
 
     with open(filename, 'w') as outfile:
