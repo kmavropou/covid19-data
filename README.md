@@ -5,7 +5,7 @@ This repository is an attempt to gather data on COVID-19 from various sources. T
 
 ## Data sources
 
-Last Update: 23/3/2020
+Last Update: 24/3/2020 13:53 GMT+0200
 
 - Johns Hopkins CSSE: https://systems.jhu.edu/research/public-health/ncov
   - Data repository: https://github.com/CSSEGISandData/COVID-19
