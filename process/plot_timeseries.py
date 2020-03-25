@@ -26,5 +26,5 @@ ax.set_title('Worldwide total reported COVID-19 cases')
 ax.set_xlabel("Date")
 ax.set_ylabel("Total cases")
 
-fig.savefig('../docs/images/worldwide_total_cases.png', bbox_inches='tight')
+fig.savefig('../docs/images/worldwide_total_cases.png')
 plt.show()
