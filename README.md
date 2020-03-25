@@ -50,6 +50,11 @@ Data are updated daily - Last Update: 24/3/2020 13:53 GMT+0200
   }   
   ```
 
+## Data visualizations
+
+**Total reported cases (worldwide):**
+![worldwide-total-reported-cases](./docs/images/worldwide_total_cases.png)
+
 ## How to contribute
 We are looking for volunteers who want to contribute! We are also looking for fresh ideas to expand our project's goal!
 
