@@ -5,7 +5,7 @@ from matplotlib.dates import DateFormatter
 import seaborn as sns
 from datetime import datetime
 
-data = pd.read_csv('../output_data/covid19_clean_complete.csv')
+data = pd.read_csv('../output_data/covid19_clean_complete.csv', keep_default_na=False, na_values=[""])
 data['Date'] = pd.to_datetime(data['Date'])
 data['Date'] = data['Date'].map(lambda t: t.strftime('%Y-%m-%d'))
 daily_data = data.groupby(["Date"])["Confirmed", "Deaths", "Recovered"].sum()

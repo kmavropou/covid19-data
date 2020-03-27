@@ -27,7 +27,7 @@ def export_to_json(data, filename):
 
 
 if __name__ == '__main__':
-    data = pd.read_csv('../output_data/covid19_clean_complete.csv')
+    data = pd.read_csv('../output_data/covid19_clean_complete.csv', keep_default_na=False, na_values=[""])
 
     data = data.drop(columns=["Province/State", "Lat", "Long"])
 
